@@ -1,0 +1,116 @@
+[
+  {
+      "id": 1,
+        "restoran": {
+          "id": {
+            "$numberLong": "1"
+          },
+          "nama": "Kusuma Sari",
+          "findname": "KUSUMA SARI",
+          "harga": "$$",
+          "desc": "apa lah",
+          "rekomen": "apa kek",
+          "alamat": "Slamet Riyadi St No.111, Kemlayan, Serengan, Surakarta City, Central Java 57151",
+          "jam":{
+            "peak": "12.00-14.00",
+            "operasional": "09.00-22.00"
+          }
+
+    }
+  },
+  {
+    "id": 2,
+      "restoran": {
+        "id": {
+          "$numberLong": "2"
+        },
+        "nama": "Selat Vien's Pusat",
+        "findname": "SELAT VIEN'S PUSAT",
+        "harga": "$",
+        "desc": "apa lah",
+        "rekomen": "apa kek",
+        "alamat": "Jl. Hasanudin No.99 D/E, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57139",
+        "jam":{
+          "peak": "11.00-14.00",
+          "operasional": "07.30-17.00"
+        }
+
+    }
+  },
+  {
+    "id": 3,
+      "restoran": {
+        "id": {
+          "$numberLong": "3"
+        },
+        "nama": "Bakso Alex Mangkunegaran",
+        "findname": "BAKSO ALEX MANGKUNEGARAN",
+        "harga": "$",
+        "desc": "Tempat makan yg menghidangkan menu bakso daging sapi halal, spesialis bakso urat, menerima catering.",
+        "rekomen": "apa kek",
+        "alamat": "Jl. Yosodipuro No.12B, Ketelan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
+        "jam":{
+          "peak": "12.00-15.00",
+          "operasional": "09.00-20.00"
+        }
+
+    }
+  },
+  {
+    "id": 4,
+      "restoran": {
+        "id": {
+          "$numberLong": "4"
+        },
+        "nama": "Gladak Langen Bogan",
+        "findname": "GLADAK LANGEN BOGAN",
+        "harga": "$",
+        "desc": "apa lah",
+        "rekomen": "apa kek",
+        "alamat": "Jl. Mayor Sunaryo, Gladag Depan PGS & BTC, Solo 57113",
+        "jam":{
+          "peak": "19.00-21.00",
+          "operasional": "16.00-23.00"
+        }
+
+    }
+  },
+  {
+    "id": 5,
+      "restoran": {
+        "id": {
+          "$numberLong": "5"
+        },
+        "nama": "Timlo Maestro",
+        "findname": "TIMLO MAESTRO",
+        "harga": "$",
+        "desc": "apa lah",
+        "rekomen": "apa kek",
+        "alamat": "Jl. K.H Ahmad Dahlan No.60, Keprabon, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
+        "jam":{
+          "peak": "18.00-21.00",
+          "operasional": "18.00-24.00"
+        }
+
+    }
+  },
+  {
+    "id": 6,
+      "restoran": {
+        "id": {
+          "$numberLong": "5"
+        },
+        "nama": "Cafe Tiga Ceret",
+        "findname": "CAFE TIGA CERET",
+        "harga": "$",
+        "desc": "apa lah",
+        "rekomen": "apa kek",
+        "alamat": "Jl. Ronggowarsito No.97, Keprabon, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
+        "jam":{
+          "peak": "20.00-23.00",
+          "operasional": "11.00-00.30"
+        }
+
+    }
+  }
+]
