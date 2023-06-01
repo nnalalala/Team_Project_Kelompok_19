@@ -103,7 +103,7 @@
     "id": 6,
       "restoran": {
         "id": {
-          "$numberLong": "5"
+          "$numberLong": "6"
         },
         "nama": "Cafe Tiga Ceret",
         "findname": "CAFE TIGA CERET",
@@ -115,6 +115,206 @@
         "jam":{
           "peak": "20.00-23.00",
           "operasional": "11.00-00.30"
+        }
+
+    }
+  },
+  {
+    "id": 7,
+      "restoran": {
+        "id": {
+          "$numberLong": "7"
+        },
+        "nama": "Nasi Kebuli ISI",
+        "findname": "NASI KEBULI ISI",
+        "tipe": "timur tengah",
+        "harga": "$",
+        "desc": "Tempat sarapan yang memiliki rasa yang luar biasa dengan harga yang tetap ramah dompet",
+        "rekomen": "Nasi Kebuli lengkap, Es teh",
+        "alamat": "Jl. Ki Hajar Dewantara No.49, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126",
+        "jam":{
+          "peak": "08.00-10,.00",
+          "operasional": "07.00-12.00"
+        }
+
+    }
+  },
+  {
+    "id": 8,
+      "restoran": {
+        "id": {
+          "$numberLong": "8"
+        },
+        "nama": "Amira",
+        "findname": "AMIRA",
+        "tipe": "timur tengah",
+        "harga": "$",
+        "desc": "Toko roti yang menjual aneka cemilan kering dan basah dengan cita rasa khas timur tengah",
+        "rekomen": "cemilan - cemilan basah dan kering",
+        "alamat": "Jl. Bogowonto No.58, Semanggi, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57117",
+        "jam":{
+          "peak": "-",
+          "operasional": "09.00-16.00"
+        }
+
+    }
+  },
+  {
+    "id": 9,
+      "restoran": {
+        "id": {
+          "$numberLong": "9"
+        },
+        "nama": "Sate Kambing Mas Mario",
+        "findname": "SATE KAMBING MAS MARIO",
+        "tipe": "timur tengah",
+        "harga": "$$",
+        "desc": "Tempat sate kambing yang terkenal oleh bumbunya dan daya tariknya",
+        "rekomen": "Sate Kambing",
+        "alamat": "Jl. Kapten Mulyadi, Kedung Lumbu, Kec. Pasar. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "11.00-13.00",
+          "operasional": "07.00 - 02.30, minggu tutup"
+        }
+
+    }
+  },
+  {
+    "id": 10,
+      "restoran": {
+        "id": {
+          "$numberLong": "10"
+        },
+        "nama": "Kebuli Gaharu",
+        "findname": "KEBULI GAHARU",
+        "tipe": "timur tengah",
+        "harga": "$$",
+        "desc": "Restoran yang menyajikan berbagai macam jenis Nasi kebuli yang dimulai dari ayam hingga kambing",
+        "rekomen": "Kebuli Spesial, Nasi Mandhi Kambing, Ice Vietnam Coffee",
+        "alamat": "Jl. Kali Sampang No.1A, RT.01/RW.2, Ps. Kliwon, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "-",
+          "operasional": "16.00-17.30"
+        }
+
+    }
+  },
+  {
+    "id": 11,
+      "restoran": {
+        "id": {
+          "$numberLong": "11"
+        },
+        "nama": "Kareema Catering",
+        "findname": "KAREEMA CATERING",
+        "tipe": "timur tengah",
+        "harga": "$$",
+        "desc": "Sebuah toko roti yang menyajikan ruangan privat dengan menu catering asal timur tengah",
+        "rekomen": "Nasi Kebuli, Rice Bowl, Podeng Roti, Croissant",
+        "alamat": "Gg. Serayu 8 No.30, Semanggi, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "-",
+          "operasional": "08.30-21.00"
+        }
+
+    }
+  },
+  {
+    "id": 12,
+      "restoran": {
+        "id": {
+          "$numberLong": "12"
+        },
+        "nama": "Yassalam Resto & Catering",
+        "findname": "YASSALAM RESTO & CATERING",
+        "tipe": "timur tengah",
+        "harga": "$$$",
+        "desc": "Restoran yang sudah terkenal dengan masakan Timur Tengahnya yang juga menyediakan Catering untuk event tertutup",
+        "rekomen": "Nasi Mandhi Lahm, Samosa, Susu Kurma, Sunset on Thaif",
+        "alamat": "Jl. Kapten Mulyadi No.193, Ps. Kliwon, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "Senin - Kamis = 09,00 - 21,00 Jumat - Minggu = 09.00 - 22.00"
+        }
+
+    }
+  },
+  {
+    "id": 13,
+      "restoran": {
+        "id": {
+          "$numberLong": "13"
+        },
+        "nama": "Sate Lawu",
+        "findname": "SATE LAWU",
+        "tipe": "timur tengah",
+        "harga": "$$$",
+        "desc": "Salah satu sate kambing yang paling terkenal cabang pasar kliwon dengan racikan bumbu timur tengah yang khas dengan resep keluarga sang pemilik",
+        "rekomen": "Sate lawu, Sop iga goreng, Nasi kebuli Kambing",
+        "alamat": "Jl. Kapten Mulyadi No.297, Ps. Kliwon, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "11.00-13.00",
+          "operasional": "08.00-21.00"
+        }
+
+    }
+  },
+  {
+    "id": 14,
+      "restoran": {
+        "id": {
+          "$numberLong": "14"
+        },
+        "nama": "Marakez Cafe",
+        "findname": "MARAKEZ CAFE",
+        "tipe": "timur tengah",
+        "harga": "$$$",
+        "desc": "Cafe yang menyajikan berbagai macam sajian Timur Tengah dengan ambiance yang menenangkan",
+        "rekomen": "Caramel Latte, Nasi Goreng Kambing, Croissant",
+        "alamat": "Jl. Untung Suropati No.76, Kedung Lumbu, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "12.00 - 22.00"
+        }
+
+    }
+  },
+  {
+    "id": 15,
+      "restoran": {
+        "id": {
+          "$numberLong": "15"
+        },
+        "nama": "Dapur Hubusyi",
+        "findname": "DAPUR HUBUSYI",
+        "tipe": "timur tengah",
+        "harga": "$$$",
+        "desc": "Tempat makan yang hanya biasa diketahui oleh beberapa orang saja ini memiliki sajian Timur Tengah yang menggelitik lidah ",
+        "rekomen": "Nasi Kebuli Kambing, Nasi Mandhi",
+        "alamat": "CR8H+M6P, Ps. Kliwon, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "10.00-20.00"
+        }
+
+    }
+  },
+  {
+    "id": 15,
+      "restoran": {
+        "id": {
+          "$numberLong": "15"
+        },
+        "nama": "Zagladi Arabian Food",
+        "findname": "ZAGLADI ARABIAN FOOD",
+        "tipe": "timur tengah",
+        "harga": "$$$",
+        "desc": "Restoran timur tengah yang diluarnya terlihat seperti rumah biasa akan tetapi memiliki bau masakan timur tengah yang menggoda dengan porsi cocok untuk satu keluarga",
+        "rekomen": "Nampan Mandhi Kebab, Nampan Mandhi Kambing, Ummu Ali, Halak Bil Bisqut",
+        "alamat": "Jl. Prameswari No.16, Kedung Lumbu, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57133",
+        "jam":{
+          "peak": "11.00-13.00",
+          "operasional": "08.00-20.00"
         }
 
     }
