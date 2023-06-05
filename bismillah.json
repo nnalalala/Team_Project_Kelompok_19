@@ -338,4 +338,64 @@
         }
 
     }
+  },
+  {
+    "id": 17,
+      "restoran": {
+        "id": {
+          "$numberLong": "17"
+        },
+        "nama": "Goela Klapa Authentic Indonesian Cuisine",
+        "findname": "GOELA KLAPA AUTHENTIC INDONESIAN CUISINE",
+        "tipe": "asia",
+        "harga": "$$",
+        "desc": "Pada umumnya adalah masakan Indonesia, spesialnya adalah nasi bakar dalam wadah gerabah",
+        "rekomen": "Nasi bakar",
+        "alamat": "Jl. Menteri Supeno No.3, Manahan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57139",
+        "jam":{
+          "peak": "10.00-13.00",
+          "operasional": "08.00-21.00"
+        }
+
+    }
+  },
+  {
+    "id": 18,
+      "restoran": {
+        "id": {
+          "$numberLong": "18"
+        },
+        "nama": "Orient Restaurant",
+        "findname": "ORIENT RESTAURANT",
+        "tipe": "asia",
+        "harga": "$$$$",
+        "desc": "Orient telah menjadi restoran makanan Cina klasik di Solo dan secara konsisten menghadirkan makanan berkualitas",
+        "rekomen": "Sapo tofu ayam, Shihukee, Pao kosong",
+        "alamat": "Slamet Riyadi St No.397, Sondakan, Laweyan, Surakarta City, Central Java 57146",
+        "jam":{
+          "peak": "10.00-12.00",
+          "operasional": "07.00-14.30"
+        }
+
+    }
+  },
+  {
+    "id": 19,
+      "restoran": {
+        "id": {
+          "$numberLong": "19"
+        },
+        "nama": "Nini Thowong Restaurant",
+        "findname": "NINI THOWONG RESTAURANT",
+        "tipe": "asia",
+        "harga": "$$",
+        "desc": "Pada umumnya adalah masakan Indonesia, spesialnya adalah nasi bakar dalam wadah gerabah",
+        "rekomen": "Nasi gudeg, Nasi Rawon",
+        "alamat": "Jl. Arifin No.59, Kepatihan Wetan, Kec. Jebres, Kota Surakarta, Jawa Tengah 57129",
+        "jam":{
+          "peak": "12.00-15.00",
+          "operasional": "08.00-21.00"
+        }
+
+    }
   }
