@@ -318,5 +318,24 @@
         }
 
     }
+  },
+  {
+    "id": 16,
+      "restoran": {
+        "id": {
+          "$numberLong": "16"
+        },
+        "nama": "Omah Londo Angkringan",
+        "findname": "OMAH LONDO ANGKRINGAN",
+        "tipe": "asia",
+        "harga": "$$",
+        "desc": "Omah Londo ini merupakan Warung makan tradisional ala perpaduan antara unsur jawa dan Belanda",
+        "rekomen": "Sego pedo, Wedang uwuh, Sate paru, ",
+        "alamat": "Jl. Agus Salim No.2A, Sondakan, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57147",
+        "jam":{
+          "peak": "18.00-22.00",
+          "operasional": "07.00-23.00"
+        }
+
+    }
   }
-]
