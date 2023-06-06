@@ -300,10 +300,10 @@
     }
   },
   {
-    "id": 15,
+    "id": 16,
       "restoran": {
         "id": {
-          "$numberLong": "15"
+          "$numberLong": "16"
         },
         "nama": "Zagladi Arabian Food",
         "findname": "ZAGLADI ARABIAN FOOD",
@@ -320,10 +320,10 @@
     }
   },
   {
-    "id": 16,
+    "id": 17,
       "restoran": {
         "id": {
-          "$numberLong": "16"
+          "$numberLong": "17"
         },
         "nama": "Omah Londo Angkringan",
         "findname": "OMAH LONDO ANGKRINGAN",
@@ -340,10 +340,10 @@
     }
   },
   {
-    "id": 17,
+    "id": 18,
       "restoran": {
         "id": {
-          "$numberLong": "17"
+          "$numberLong": "18"
         },
         "nama": "Goela Klapa Authentic Indonesian Cuisine",
         "findname": "GOELA KLAPA AUTHENTIC INDONESIAN CUISINE",
@@ -360,10 +360,10 @@
     }
   },
   {
-    "id": 18,
+    "id": 19,
       "restoran": {
         "id": {
-          "$numberLong": "18"
+          "$numberLong": "19"
         },
         "nama": "Orient Restaurant",
         "findname": "ORIENT RESTAURANT",
@@ -380,10 +380,10 @@
     }
   },
   {
-    "id": 19,
+    "id": 20,
       "restoran": {
         "id": {
-          "$numberLong": "19"
+          "$numberLong": "20"
         },
         "nama": "Nini Thowong Restaurant",
         "findname": "NINI THOWONG RESTAURANT",
@@ -398,5 +398,170 @@
         }
 
     }
+  },
+  {
+    "id": 21,
+      "restoran": {
+        "id": {
+          "$numberLong": "21"
+        },
+        "nama": "Wang Li Heng",
+        "findname": "WANG LI HENG",
+        "tipe": "asia",
+        "harga": "$$$",
+        "desc": "Restoran dengan macam aneka mie, dimsum dan snack lainnya yang sangat otentik Chinese",
+        "rekomen": "Bakmi creamy soy chicken, Bubur ayam, Hakau, Nasi soy",
+        "alamat": "Jl. Bungur V No.5, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57132",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "09.00-21.00"
+        }
+
+    }
+  },
+  {
+    "id": 22,
+      "restoran": {
+        "id": {
+          "$numberLong": "22"
+        },
+        "nama": "Daegu Korean Grill",
+        "findname": "DAEGU KOREAN GRILL",
+        "tipe": "asia",
+        "harga": "$$$",
+        "desc": "Daegu Korean Grill merupakan restoran yang menyajikan hidangan khas Korea Selatan dan berada di Kota Solo",
+        "rekomen": "Dad kanjong, Peonen dakbal, Dakgalbi, Bingsu",
+        "alamat": "Jl. Dr. Rajiman No.402, Penumping, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57141",
+        "jam":{
+          "peak": "17.00-20.00",
+          "operasional": "11.00-21.00"
+        }
+
+    }
+  },
+  {
+    "id": 23,
+      "restoran": {
+        "id": {
+          "$numberLong": "23"
+        },
+        "nama": "Fai Kie Restaurant",
+        "findname": "FAI KIE RESTAURANT",
+        "tipe": "asia",
+        "harga": "$$$",
+        "desc": "Fai Kie Restaurant ini menyajikan berbagai menu masakan tionghoa, aneka nasi dan bakmi",
+        "rekomen": "Tito Ca, Tahu Loo, Jie Ja Kie, Jaisiem Kee Kiu",
+        "alamat": "Jl. Kapten Mulyadi No.29, Sudiroprajan, Kec. Jebres, Kota Surakarta, Jawa Tengah 57121",
+        "jam":{
+          "peak": "17.00-20.00",
+          "operasional": "09.30-21.30"
+        }
+
+    }
+  },
+  {
+    "id": 24,
+      "restoran": {
+        "id": {
+          "$numberLong": "24"
+        },
+        "nama": "Sushi Yay",
+        "findname": "SUSHI SAY",
+        "tipe": "asia",
+        "harga": "$$$",
+        "desc": "Restaurant cepat saji dengan menu Jepang yang menyajikan makanan halal dan matang",
+        "rekomen": "Aburi Kani Mentai, Sushi Hemato Platter",
+        "alamat": "Jl. Yosodipuro No.66, Ketelan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "08.00-21.30"
+        }
+
+    }
+  },
+  {
+    "id": 25,
+      "restoran": {
+        "id": {
+          "$numberLong": "25"
+        },
+        "nama": "Pracima Tuin",
+        "findname": "PRACIMA TUIN",
+        "tipe": "asia",
+        "harga": "$$$$",
+        "desc": "Pracima Tuin di Pura Mangkunegaran menjadi rekomendasi tempat makanan dan wisata yang terkenal di Solo",
+        "rekomen": "Teh Pracimasana, Sate Pitik, Lidah Gongso",
+        "alamat": "Jl. RA Kartini, Timuran, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
+        "jam":{
+          "peak": "17.00-20.00",
+          "operasional": "12.00-22.00"
+        }
+
+    }
+  },
+  {
+    "id": 26,
+      "restoran": {
+        "id": {
+          "$numberLong": "26"
+        },
+        "nama": "The Sky Lounge",
+        "findname": "THE SKY LOUNGE",
+        "tipe": "asia",
+        "harga": "$$$$",
+        "desc": "Restaurant mewah dengan pemandangan malamnya yang bagus, sangat direkomendasikan untuk pasangan, pertemuan keluarga, atau acara lainnya",
+        "rekomen": "The sky lunch, the sky dinner",
+        "alamat": "no. 450, Slamet Riyadi St, Purwosari, Laweyan, Surakarta City, Central Java 57142",
+        "jam":{
+          "peak": "19.00-22.00",
+          "operasional": "15.00-24.00"
+        }
+
+    }
+  },
+  {
+    "id": 27,
+      "restoran": {
+        "id": {
+          "$numberLong": "27"
+        },
+        "nama": "Agra Rooftop",
+        "findname": "AGRA ROOFTOP",
+        "tipe": "barat",
+        "harga": "$$$$",
+        "desc": "Agra Rooftop bagian dari Alila Solo yang menghadirkan gaya hidup mewah, santapan, dan hiburan di lokasi ikonik dengan pemandangan matahari terbenam",
+        "rekomen": "Barramundi, Agra Chicken Sandwichm Anju Bites",
+        "alamat": "no. 450, Slamet Riyadi St, Purwosari, Laweyan, Surakarta City, Central Java 57142",
+        "jam":{
+          "peak": "19.00-22.00",
+          "operasional": "15.00-24.00"
+        }
+
+    }
+  },
+  {
+    "id": 28,
+      "restoran": {
+        "id": {
+          "$numberLong": "28"
+        },
+        "nama": "HokBen Slamet Riyadi Solo",
+        "findname": "HOKBEN SLAMET RIYADI SOLO",
+        "tipe": "asia",
+        "harga": "$$$",
+        "desc": "Restoran dengan banyak sajian menu ala Jepang",
+        "rekomen": "Chicken Curryaki, Hokkaido Miso Ramen, Koori Koonyaku",
+        "alamat": "no. 450, Slamet Riyadi St, Purwosari, Laweyan, Surakarta City, Central Java 57142",
+        "jam":{
+          "peak": "16.00-22.00",
+          "operasional": "00.00-24.00"
+        }
+
+    }
   }
 ]
+  
+  
+
+    
+  
