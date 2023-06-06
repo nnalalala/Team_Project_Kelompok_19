@@ -558,6 +558,204 @@
         }
 
     }
+  },
+  {
+    "id": 29,
+      "restoran": {
+        "id": {
+          "$numberLong": "29"
+        },
+        "nama": "Saffron Resto",
+        "findname": "SAFFORN RESTO",
+        "tipe": "barat",
+        "harga": "$$$",
+        "desc": "Tempat yang menyediakan berbagai macam makanan barat, yang cocok untuk tempat berbagai acara keluarga, pertemuan bisnis, dan acara lainnya",
+        "rekomen": "Chicken Spinach Canelloni,Carbonara",
+        "alamat": "Jl. Ronggowarsito No.38, Kp. Baru, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57131",
+        "jam":{
+          "peak": "18.00-19.00",
+          "operasional": "11.00-22.00"}
+        }
+  },
+  {
+    "id": 30,
+      "restoran": {
+        "id": {
+          "$numberLong": "30"
+        },
+        "nama": "Par Four Cafe",
+        "findname": "PAR FOUR CAFE",
+        "tipe": "barat",
+        "harga": "$$$$",
+        "desc": "Restoran ini dilengkapi dengan ruang terbuka yang luas dan teras yang menawarkan pemandangan lapangan golf yang hijau dan indah.",
+        "rekomen": "Pork Lovers Pizza(Babi)",
+        "alamat": "Jl. Kebangkitan Nasional No.31, Sriwedari, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57141",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "16.30-00.00"}
+        }
+  },
+  {
+    "id": 31,
+      "restoran": {
+        "id": {
+          "$numberLong": "31"
+        },
+        "nama": "C&L Coffee",
+        "findname": "C&L COFFEE",
+        "tipe": "barat",
+        "harga": "$$$",
+        "desc": "Sebuah restoran kopi yang menawarkan pengalaman unik bagi para pecinta kopi di Surakarta.",
+        "rekomen": "Coffee latte",
+        "alamat": "Jl. Dr. Rajiman No.525, Laweyan, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57148",
+        "jam":{
+          "peak": "18.00-21.00",
+          "operasional": "10.00-22.00"}
+        }
+  },
+  {
+    "id": 32,
+      "restoran": {
+        "id": {
+          "$numberLong": "32"
+        },
+        "nama": "Solo' Bistro",
+        "findname": "SOLO' BISTRO",
+        "tipe": "barat",
+        "harga": "$$",
+        "desc": "Menu Solo' Bistro menawarkan berbagai hidangan kuliner yang menggugah selera, baik masakan lokal maupun internasional, hidangan Western seperti steak dan pasta yang lezat.",
+        "rekomen": "Tabox Chicken Bowsame,Tabox chicken Bakckpepper",
+        "alamat": "Jl. Slamet Riyadi No.183, Kemlayan, Kec. Serengan, Kota Surakarta, Jawa Tengah 57151",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "11.00-21.00"}
+        }
+  },
+  {
+    "id": 33,
+      "restoran": {
+        "id": {
+          "$numberLong": "33"
+        },
+        "nama": "Coconuts Resto",
+        "findname": "COCONUTS RESTO",
+        "tipe": "barat",
+        "harga": "$$",
+        "desc": "Menu CoConuts Resto Surakarta menawarkan hidangan kreatif dengan campuran cita rasa yang segar dan unik.",
+        "rekomen": "Carbonara,Original Roast Chicken,Cream soup,Lava cake,Caesar Salad",
+        "alamat": "Dawung Jl. Yos Sudarso No.361, Danukusuman, Kec. Serengan, Kota Surakarta, Jawa Tengah 57156",
+        "jam":{
+          "peak": "13.00-15.00",
+          "operasional": "12.00-20.00"}
+        }
+  },
+  {
+    "id": 34,
+      "restoran": {
+        "id": {
+          "$numberLong": "34"
+        },
+        "nama": "Steak Tenant ",
+        "findname": "STEAK TENANT",
+        "tipe": "barat",
+        "harga": "$$$",
+        "desc": "Steak Tenant Surakarta adalah restoran yang menghidangkan hidangan steak dengan kualitas tinggi dan cita rasa yang lezat.",
+        "rekomen": "Aus sirloin meltique, Aus Rib Eye meltique,Terderloin",
+        "alamat": "Jl. Honggowongso, Kemlayan, Kec. Serengan, Kota Surakarta, Jawa Tengah 57141",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "11.00-22.00"}
+        }
+  },
+  {
+    "id": 35,
+      "restoran": {
+        "id": {
+          "$numberLong": "35"
+        },
+        "nama": "Obonk Steak & Ribs Solo",
+        "findname": "OBONK STEAK & RIBS SOLO",
+        "tipe": "barat",
+        "harga": "$$$",
+        "desc":"Menu Obonk Steak & Ribs Surakarta menawarkan berbagai pilihan steak yang menggugah selera. Mulai dari steak sirloin, tenderloin, hingga steak ayam untuk para pecinta daging putih.",
+        "rekomen": "Chicken cheese, Big beef Crispy",
+        "alamat": "Jl. Prof. DR. Supomo No.11, Sriwedari, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57141",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "11.00-22.00"}
+        }
+  },
+  {
+    "id": 36,
+      "restoran": {
+        "id": {
+          "$numberLong": "36"
+        },
+        "nama": "Steaky Steak Solo",
+        "findname": "STEAKY STEAK SOLO",
+        "tipe": "barat",
+        "harga": "$$",
+        "desc":"Menu Steaky Steak Solo menawarkan berbagai pilihan steak yang beragam. Setiap potongan daging sapi dipilih dengan teliti dan dimasak sesuai dengan permintaan para pengunjung, baik medium rare, medium, atau well done.",
+        "rekomen": "Ice Blend",
+        "alamat": "Jl. Bromo Raya No.168, Geplukan, Wonorejo, Kec. Gondangrejo, Kabupaten Karanganyar, Jawa Tengah 57136",
+        "jam":{
+          "peak": "19.00-20.00",
+          "operasional": "11.00-22.00"}
+        }
+  },
+  {
+    "id": 37,
+      "restoran": {
+        "id": {
+          "$numberLong": "37"
+        },
+        "nama": "Arje's Kitchen",
+        "findname": "ARJE'S KITCHEN",
+        "tipe": "barat",
+        "harga": "$$",
+        "desc":"Menu Arje's Kitchen Surakarta menawarkan pilihan hidangan internasional yang variatif. Mulai dari hidangan pasta, pizza, burger, hingga hidangan daging panggang yang menggugah selera.",
+        "rekomen": "Chicken Cordon bleu, Cheesy Spaghetti",
+        "alamat": "Jl. Antariksa II, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "11.00-22.00, Minggu tutup"}
+        }
+  },
+  {
+    "id": 38,
+      "restoran": {
+        "id": {
+          "$numberLong": "38"
+        },
+        "nama": "Natahati Coffee & Eatery",
+        "findname": "NATAHATI COFFEE & EATERY",
+        "tipe": "barat",
+        "harga": "$$$",
+        "desc":"Natahati Coffee & Eatery Surakarta adalah restoran yang menyajikan kombinasi sempurna antara kopi yang lezat dan hidangan makanan yang menggugah selera.",
+        "rekomen": "Chicken Gladiator, Tuna Tataki,Es kopi Kawista,Es Kopi Gula Aren",
+        "alamat": "Jl. Punggawan No.6, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57132",
+        "jam":{
+          "peak": "18.00-19.00",
+          "operasional": "08.00-22.00,"}
+        }
+  },
+  {
+    "id": 39,
+      "restoran": {
+        "id": {
+          "$numberLong": "39"
+        },
+        "nama": "A&M Co",
+        "findname": "A&M CO",
+        "tipe": "barat",
+        "harga": "$$$$",
+        "desc":"Restoran yang cocok untuk berbincang - bingang dengan ambiance mewah dengan berbagai jenis masakan",
+        "rekomen": "Get Lunch, Apple Strudel, Crotabak, Salted Caramel Coffee",
+        "alamat": "Jl. Abdul Rahman Saleh No.1, Setabelan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57139",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "08.00-00.00,"}
+        }
   }
 ]
   
