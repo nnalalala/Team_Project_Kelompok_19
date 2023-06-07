@@ -792,10 +792,131 @@
           "peak": "17.00-20.00",
           "operasional": "11.00-21.00,"}
         }
+  },
+  {
+    "id": 42,
+      "restoran": {
+        "id": {
+          "$numberLong": "42"
+        },
+        "nama": "R&B Grill",
+        "findname": "R&B GRILL",
+        "tipe": "barat",
+        "harga": "$$$$",
+        "desc":"Steak house yang menyajikan berbagai macam potongan daging sapi dan protein lainnya dengan menu Grill dan masakan barat dengan rempah yang berkualitas dan ambiance makan yang mewah",
+        "rekomen": "Japanese Rib Eye A4, Australian Tomahawk, Norwegian Salmon",
+        "alamat": "Jl. Kebangkitan Nasional No.45, Sriwedari, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57141",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "10.00 - 21.00"}
+        }
+  },
+  {
+    "id": 42,
+      "restoran": {
+        "id": {
+          "$numberLong": "42"
+        },
+        "nama": "Roti Pakistan Bang Suhel",
+        "findname": "ROTI PAKISTAN BANG SUHEL",
+        "tipe": "timur tengah",
+        "harga": "$",
+        "desc":"Kios yang menyajikan roti khas pakistan dengan berbagai macam jenis",
+        "rekomen": "Roti Pakistan Kari rempah, Roti pakistan",
+        "alamat": "Jl Banjir Kalan RT 05 RW 08, Mojo, Kec Ps. Kliwon, Kota Surakarta, Jawa Tengah",
+        "jam":{
+          "peak": "-",
+          "operasional": "09.00-13.00"}
+        }
+  },
+  {
+    "id": 44,
+      "restoran": {
+        "id": {
+          "$numberLong": "44"
+        },
+        "nama": "Indiana Kebab",
+        "findname": "INDIANA KEBAB",
+        "tipe": "timur tengah",
+        "harga": "$",
+        "desc":"Kios kebab yang menyajikan kebab dengan harga yang terjangkau dengan kualitas dan rasa yang memadai",
+        "rekomen": "Syawarma Keju, Beef Syawarma",
+        "alamat": "Jagalan, Jebres, Surakarta City, Central Java 57162",
+        "jam":{
+          "peak": "18.00 - 19.00",
+          "operasional": "00.00 - 00.00"}
+        }
+  },
+  {
+    "id": 45,
+      "restoran": {
+        "id": {
+          "$numberLong": "45"
+        },
+        "nama": "Sahabat Kebab",
+        "findname": "SAHABAT KEBAB",
+        "tipe": "timur tengah",
+        "harga": "$",
+        "desc":"Kios Kebab yang dapat menyajikan pesanan custom sesuai dengan keinginan.",
+        "rekomen": "Kebab on fire, Big Kebab",
+        "alamat": "Jl. Kapten Mulyadi No.185 0271, Ps. Kliwon, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57118",
+        "jam":{
+          "peak": "18.00 - 19.00",
+          "operasional": "17:30-21:45"}
+        }
+  },
+  {
+    "id": 46,
+      "restoran": {
+        "id": {
+          "$numberLong": "46"
+        },
+        "nama": "Manir's Family Kitchen",
+        "findname": "MANIR'S FAMILY KITCHEN",
+        "tipe": "timur tengah",
+        "harga": "$$",
+        "desc":"Restoran yang menyajikan hidangan timur tengah dan india dengan rasa rempah yang kuat dan lezat.",
+        "rekomen": "Chicken Curry, Roti, Prata",
+        "alamat": "Jl. Turisari X No.3C, RT.01/RW.10, Mangkubumen, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57139",
+        "jam":{
+          "peak": "18.00-20.00",
+          "operasional": "10.00-20.00"}
+        }
+  },
+  {
+    "id": 47,
+      "restoran": {
+        "id": {
+          "$numberLong": "47"
+        },
+        "nama": "Kebuli Honggowoso",
+        "findname": "KEBULI HONGGOWOSO",
+        "tipe": "timur tengah",
+        "harga": "$$",
+        "desc":"Restoran yang menyajikan nasi kebuli yang kaya akan rasa dan rempah.",
+        "rekomen": "Nasi kebuli Kambing acar zalata",
+        "alamat": "Jl. Daeng No.10, Jayengan, Kec. Serengan, Kota Surakarta, Jawa Tengah 57152",
+        "jam":{
+          "peak": "11.00 - 14.00",
+          "operasional": "09.00 - 21.00"}
+        }
+  },
+  {
+    "id": 48,
+      "restoran": {
+        "id": {
+          "$numberLong": "48"
+        },
+        "nama": "Diamond Restaurant",
+        "findname": "DIAMOND RESTAURAN",
+        "tipe": "asia",
+        "harga": "$$$$",
+        "desc":"Restoran Cina yang sudah terkenal dengan berbagai macam menu yang ditemani dengan layout restaurant mewah tradisional cina.",
+        "rekomen": "Bebek panggang, Peeking Duck, Sapi Lada Hitam",
+        "alamat": "Slamet Riyadi St No.392, Purwosari, Laweyan, Surakarta City, Central Java 57144",
+        "jam":{
+          "peak": "18.00 - 21.00",
+          "operasional": "07.00 - 23.00"}
+        }
   }
 ]
-  
-  
-
-    
-  
