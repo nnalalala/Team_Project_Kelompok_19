@@ -9,8 +9,8 @@
           "findname": "KUSUMA SARI",
           "tipe": "asia",
           "harga": "$$",
-          "desc": "apa lah",
-          "rekomen": "apa kek",
+          "desc": "Restoran yang dikenal sebagai salah satu destinasi kuliner yang populer di kota Solo dengan menawarkan suasana yang nyaman dan makanan yang lezat dengan sentuhan khas Jawa.",
+          "rekomen": "Sop Kusumasari, Nasi Liwet, Soto Gading",
           "alamat": "Slamet Riyadi St No.111, Kemlayan, Serengan, Surakarta City, Central Java 57151",
           "jam":{
             "peak": "12.00-14.00",
@@ -29,8 +29,8 @@
         "findname": "SELAT VIEN'S PUSAT",
         "tipe": "asia",
         "harga": "$",
-        "desc": "apa lah",
-        "rekomen": "apa kek",
+        "desc": " Restoran ini menawarkan pengalaman kuliner yang unik dengan suasana yang elegan dan menu makanan yang beragam",
+        "rekomen": "Selat daging, Sup matahari, Es kuwut,",
         "alamat": "Jl. Hasanudin No.99 D/E, Punggawan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57139",
         "jam":{
           "peak": "11.00-14.00",
@@ -49,8 +49,8 @@
         "findname": "BAKSO ALEX MANGKUNEGARAN",
         "tipe": "asia",
         "harga": "$",
-        "desc": "Tempat makan yg menghidangkan menu bakso daging sapi halal, spesialis bakso urat, menerima catering.",
-        "rekomen": "apa kek",
+        "desc": "Bakso Alex Mangkunegaran adalah sebuah warung bakso yang terletak di Mangkunegaran, Solo, Jawa Tengah, Indonesia. Warung ini terkenal dengan bakso yang lezat dan porsi yang melimpah.",
+        "rekomen": "Bakso Komplit, Mie Ayam Hotplate",
         "alamat": "Jl. Yosodipuro No.12B, Ketelan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
         "jam":{
           "peak": "12.00-15.00",
@@ -69,8 +69,8 @@
         "findname": "GLADAK LANGEN BOGAN",
         "tipe": "asia",
         "harga": "$",
-        "desc": "apa lah",
-        "rekomen": "apa kek",
+        "desc": "Restoran ini memiliki konsep unik dengan mengambil inspirasi dari gladak, yaitu sebuah gerobak tradisional yang sering digunakan sebagai kios makanan di pasar-pasar tradisional di Indonesia.",
+        "rekomen": "Nasi Gudeng, Sate Klathak, Wedang Ronde",
         "alamat": "Jl. Mayor Sunaryo, Gladag Depan PGS & BTC, Solo 57113",
         "jam":{
           "peak": "19.00-21.00",
@@ -89,8 +89,8 @@
         "findname": "TIMLO MAESTRO",
         "tipe": "asia",
         "harga": "$",
-        "desc": "apa lah",
-        "rekomen": "apa kek",
+        "desc": "Restoran ini terkenal dengan hidangan Timlo, sejenis sup tradisional Jawa yang sangat populer di daerah Solo.",
+        "rekomen": "Timlo, Nasi Goreng Babat, Pudding Lapis",
         "alamat": "Jl. K.H Ahmad Dahlan No.60, Keprabon, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
         "jam":{
           "peak": "18.00-21.00",
@@ -109,8 +109,8 @@
         "findname": "CAFE TIGA CERET",
         "tipe": "asia",
         "harga": "$",
-        "desc": "apa lah",
-        "rekomen": "apa kek",
+        "desc": "Cafe Tiga Ceret memiliki desain interior yang menarik dengan sentuhan modern dan nuansa yang cozy dengan menu makanan tradisinal untuk dinikmati oleh pengunjungnya.",
+        "rekomen": "Nasi oseng granat, Es jahe gepuk, wedang nanas jahe",
         "alamat": "Jl. Ronggowarsito No.97, Keprabon, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57131",
         "jam":{
           "peak": "20.00-23.00",
@@ -756,9 +756,44 @@
           "peak": "18.00-20.00",
           "operasional": "08.00-00.00,"}
         }
+  },
+  {
+    "id": 40,
+      "restoran": {
+        "id": {
+          "$numberLong": "40"
+        },
+        "nama": "Mr. Hiroshi Ramen",
+        "findname": "MR HIROSHI RAMEN",
+        "tipe": "asia",
+        "harga": "$$",
+        "desc":"Restoran ini terkenal dengan hidangan ramen yang lezat dan autentik, dengan cita rasa yang khas Jepang.",
+        "rekomen": "Ramen Tonkotsu, Ramen Miso,Ramen Shoyu",
+        "alamat": "Jl. Dr. Rajiman No.53, Gajahan, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57133",
+        "jam":{
+          "peak": "15.00-18.00",
+          "operasional": "12.00-20.00,"}
+        }
+  },
+  {
+    "id": 41,
+      "restoran": {
+        "id": {
+          "$numberLong": "40"
+        },
+        "nama": "Chao Phraya Thai Cuisine",
+        "findname": " CHAO PHRAYA THAI CUISINE",
+        "tipe": "asia",
+        "harga": "$$",
+        "desc":"Restoran ini menyajikan masakan Thailand autentik, dengan hidangan khas seperti Pad Thai, Tom Yum, dan Green Curry. Hidangan-hidangan ini memiliki cita rasa khas Thailand yang lezat dan disajikan dengan bahan-bahan segar. Restoran ini cocok bagi pecinta masakan Thailand di Solo.",
+        "rekomen": "Pad Thai, Tom Yum, Green Curry",
+        "alamat": "Jl. Dr. Rajiman No.53, Gajahan, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57133",
+        "jam":{
+          "peak": "17.00-20.00",
+          "operasional": "11.00-21.00,"}
+        }
   }
 ]
-  
   
 
     
