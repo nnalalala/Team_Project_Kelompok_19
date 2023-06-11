@@ -269,4 +269,7 @@ while search:
     if search.lower() == 'y':
         search = True
     else:
+        print('-'*50)
+        print('Terima kasih telah menggunakan program kami')
         search = False
+
