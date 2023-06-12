@@ -1,45 +1,45 @@
-def login(name,pasword):
-    Berhasil = False
-    file = open("base.txt", "r")
-    for i in file:
-        x,y = i.split(",")
-        y = y.strip()
-        if(x == name and y == pasword):
-            Berhasil = True
-            break
-    file.close()
-    if(Berhasil):
-        print("login sukses")
-    else:
-        print("Anda belum memiliki akun, silahkan registrasi akun")
-def registrasi(name,pasword):
-    file = open("base.txt", "a")
-    file.write("\n"+name+","+pasword)
+# def login(name,pasword):
+#     Berhasil = False
+#     file = open("base.txt", "r")
+#     for i in file:
+#         x,y = i.split(",")
+#         y = y.strip()
+#         if(x == name and y == pasword):
+#             Berhasil = True
+#             break
+#     file.close()
+#     if(Berhasil):
+#         print("login sukses")
+#     else:
+#         print("Anda belum memiliki akun, silahkan registrasi akun")
+# def registrasi(name,pasword):
+#     file = open("base.txt", "a")
+#     file.write("\n"+name+","+pasword)
 
-def access(option):
-    global name 
-    if(option == "login"):
-        name = input ("Masukkan ID : ")
-        pasword = input ("Masukkan pasword : ")
-        login(name,pasword)
-    else : 
-        print ("Masukkan ID dan Paword anda : ")
-        name = input("Masukkan ID : ")
-        pasword = input("Masukkan pasword : ")
-        registrasi(name,pasword)
-        print("Registrasi anda berhasil")
+# def access(option):
+#     global name 
+#     if(option == "login"):
+#         name = input ("Masukkan ID : ")
+#         pasword = input ("Masukkan pasword : ")
+#         login(name,pasword)
+#     else : 
+#         print ("Masukkan ID dan Paword anda : ")
+#         name = input("Masukkan ID : ")
+#         pasword = input("Masukkan pasword : ")
+#         registrasi(name,pasword)
+#         print("Registrasi anda berhasil")
 
-def begin():
-    global option
-    print("Selamat datang di program kami")
-    print("silahkan pilih 'login' jika sudah memiliki akun")
-    print("silahkan pilih 'reg' jika belum memiliki akun")
-    option = input("silahkan pilih (log/reg)")
-    if(option != "login" and option != "reg"):
-        begin()
+# def begin():
+#     global option
+#     print("Selamat datang di program kami")
+#     print("silahkan pilih 'login' jika sudah memiliki akun")
+#     print("silahkan pilih 'reg' jika belum memiliki akun")
+#     option = input("silahkan pilih (log/reg)")
+#     if(option != "login" and option != "reg"):
+#         begin()
 
-begin()
-access(option)
+# begin()
+# access(option)
 
 #ini dibuat gui sabi
 #credit anggito
@@ -57,6 +57,10 @@ for restoran in data:
 
 #datar resto jadi kecil
 resto_lower = [element[0].lower() for element in namaresto]
+harga1='$'
+harga2 = '$$'
+harga3 = '$$$'
+harga4 = '$$$$'
 
 def tanya_filter1():
 
@@ -77,7 +81,7 @@ def tanya_filter2():
     while True:
         try:
             filter2 = input("Masukkan range harga restoran")
-            assert filter2.lower() in ["$", "$$", "$$$", "$$$$", "any"], "Input tidak valid"
+            assert filter2.lower() in ['$', '$$', '$$$', '$$$$', "any"], "Input tidak valid"
             break
         except AssertionError as er:
             print(er)
@@ -97,50 +101,50 @@ for restoran in data:
         
 print(tabulate(restofilter[:5], headers=["Nama", "tipe", "harga"]))
 
-#perulangan nyari resto
-search = input("Ingin menelusuri Restoran? y/n ")
-if search.lower()== 'y':
-    print('='*50)
-    print('Selamat datang ke menu pencarian')
-    print('='*50)
-    search = True
-else:
-    print('-'*50)
-    print('Terima kasih telah menggunakan program kami')
-    search = False
+# #perulangan nyari resto
+# search = input("Ingin menelusuri Restoran? y/n ")
+# if search.lower()== 'y':
+#     print('='*50)
+#     print('Selamat datang ke menu pencarian')
+#     print('='*50)
+#     search = True
+# else:
+#     print('-'*50)
+#     print('Terima kasih telah menggunakan program kami')
+#     search = False
 
-#input resto
-while search:
-    find = input("Masukkan nama Restoran: ")
-    counter = 0
-    for resto in resto_lower:
-        if resto.startswith(find.lower()):
-            index = resto_lower.index(resto)
-            print(f'Nama Restoran\n{namaresto[index][0]}')
-            print('-'*75)
-            print(f'Deskripsi\n{namaresto[index][1]}')
-            print('-'*300)
-            print(f'Recommended Menu\n{namaresto[index][2]}')
-            print('-'*75)
-            print(f'Alamat Restoran\n{namaresto[index][3]}')
-            print('-'*150)
-            print(f'Peak hour\n{namaresto[index][4]}')
-            print('-'*75)
-            print(f'Jam Operasional \n{namaresto[index][5]}')
-            print('-'*75)
-            print(f'Range Harga Restoran \n{namaresto[index][6]}')
-            print('='*75)
-            counter += 1
-    if counter == 0:
-        print('='*50)
-        print("Resto tidak tersedia")
-        print('='*50)
+# #input resto
+# while search:
+#     find = input("Masukkan nama Restoran: ")
+#     counter = 0
+#     for resto in resto_lower:
+#         if resto.startswith(find.lower()):
+#             index = resto_lower.index(resto)
+#             print(f'Nama Restoran\n{namaresto[index][0]}')
+#             print('-'*75)
+#             print(f'Deskripsi\n{namaresto[index][1]}')
+#             print('-'*300)
+#             print(f'Recommended Menu\n{namaresto[index][2]}')
+#             print('-'*75)
+#             print(f'Alamat Restoran\n{namaresto[index][3]}')
+#             print('-'*150)
+#             print(f'Peak hour\n{namaresto[index][4]}')
+#             print('-'*75)
+#             print(f'Jam Operasional \n{namaresto[index][5]}')
+#             print('-'*75)
+#             print(f'Range Harga Restoran \n{namaresto[index][6]}')
+#             print('='*75)
+#             counter += 1
+#     if counter == 0:
+#         print('='*50)
+#         print("Resto tidak tersedia")
+#         print('='*50)
     
-    #input lagi ga
-    search = input("Ingin menelusuri restoran lagi? y/n ")
-    if search.lower() == 'y':
-        search = True
-    else:
-        print('-'*50)
-        print('Terima kasih telah menggunakan program kami')
-        search = False
+#     #input lagi ga
+#     search = input("Ingin menelusuri restoran lagi? y/n ")
+#     if search.lower() == 'y':
+#         search = True
+#     else:
+#         print('-'*50)
+#         print('Terima kasih telah menggunakan program kami')
+#         search = False

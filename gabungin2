@@ -10,6 +10,7 @@ def login(name,pasword):
     file.close()
     if(Berhasil):
         print("login sukses")
+        print('='*50)
     else:
         print("Anda belum memiliki akun, silahkan registrasi akun")
 def registrasi(name,pasword):
@@ -34,7 +35,9 @@ def begin():
     print("Selamat datang di program kami")
     print('='*50)
     print("silahkan pilih 'login' jika sudah memiliki akun")
+    print('-'*50)
     print("silahkan pilih 'reg' jika belum memiliki akun")
+    print('='*50)
     option = input("silahkan pilih (log/reg)")
     if(option != "login" and option != "reg"):
         begin()
@@ -204,28 +207,28 @@ print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
 print('3. Pencarian Restoran')
 
 #main code
-filterutama=input('Apakah anda ingin menggunakan Filter Restoran?    y/n')
+filterutama=input('Apakah anda ingin menggunakan Filter Restoran?    y/n       = ')
 if filterutama.lower()== 'y':
     filterutama = False
-    tanyajenis = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n')
+    tanyajenis = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n    = ')
     if tanyajenis.lower()=='y':
         tanyajenis = False
         print('='*50)
         print('Selamat datang pada filter jenis restoran')
         print('='*50)
         print('Asia/Barat/Timur Tengah')
-        jenisresto = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah')
+        jenisresto = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah       = ')
         if jenisresto.lower() in ['asia', 'barat', 'timur tengah']:
             jenisresto1 = jenisresto
             jenisresto = False
-            tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+            tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n       = ')
             if tanyaharga.lower()=='y':
                 tanyaharga = False
                 print('='*50)
                 print('Selamat datang pada filter harga restoran')
                 print('='*50)
                 print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
-                hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+                hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$           =')
                 if jenisresto1 == 'asia' and hargaresto == '$':
                     print(tabulate(restoasia1,headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
                     hargaresto=False
@@ -286,13 +289,13 @@ if filterutama.lower()== 'y':
         print('='*50)
         print('Anda tidak memilih jenis restoran')
         print('='*50)
-        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n       = ')
         if tanyaharga.lower()=='y':
             tanyaharga = False
             print('='*50)
             print('Selamat datang pada filter harga restoran')
             print('='*50)
-            hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+            hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$      = ')
             if hargaresto == '$':
                 print(tabulate(restoharga1[:5],headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
                 hargaresto=False
@@ -323,28 +326,28 @@ else :
 
 #perulangan filter utama (filterutama)
 while filterutama:
-    filterutamaulang=input('Apakah anda ingin menggunakan Filter Restoran?    y/n')
+    filterutamaulang=input('Apakah anda ingin menggunakan Filter Restoran?    y/n      = ')
     if filterutamaulang.lower()== 'y':
         filterutama = False
-        tanyajenis = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n')
+        tanyajenis = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n    = ')
         if tanyajenis.lower()=='y':
             tanyajenis = False
             print('='*50)
             print('Selamat datang pada filter jenis restoran')
             print('='*50)
             print('Asia/Barat/Timur Tengah')
-            jenisresto = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah')
+            jenisresto = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah       = ')
             if jenisresto.lower() in ['asia', 'barat', 'timur tengah']:
                 jenisresto1 = jenisresto
                 jenisresto = False
-                tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+                tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n       = ')
                 if tanyaharga.lower()=='y':
                     tanyaharga = False
                     print('='*50)
                     print('Selamat datang pada filter harga restoran')
                     print('='*50)
                     print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
-                    hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+                    hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$      = ')
                     if jenisresto1 == 'asia' and hargaresto == '$':
                         hargaresto=False
                         print(tabulate(restoasia1,headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
@@ -405,13 +408,13 @@ while filterutama:
             print('='*50)
             print('Anda tidak memilih jenis restoran')
             print('='*50)
-            tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+            tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n       = ')
             if tanyaharga.lower()=='y':
                 print('='*50)
                 print('Selamat datang pada filter harga restoran')
                 print('='*50)
                 print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
-                hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+                hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$      = ')
                 if hargaresto == '$':
                     print(tabulate(restoharga1[:5],headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
                     hargaresto=False
@@ -441,25 +444,25 @@ while filterutama:
 
 #perulangan tanya filter jenis restoran (tanyajenis)
 while tanyajenis:
-    tanyajenisulang = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n')
+    tanyajenisulang = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n       = ')
     if tanyajenisulang.lower()=='y':
         tanyajenis = False
         print('='*50)
         print('Selamat datang pada filter jenis restoran')
         print('='*50)
         print('Asia/Barat/Timur Tengah')
-        jenisresto = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah')
+        jenisresto = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah       = ')
         if jenisresto.lower() in ['asia', 'barat', 'timur tengah']:
             jenisresto1 = jenisresto 
             jenisresto = False
-            tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+            tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n       = ')
             if tanyaharga.lower()=='y':
                 tanyaharga = False
                 print('='*50)
                 print('Selamat datang pada filter harga restoran')
                 print('='*50)
                 print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
-                hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+                hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$      = ')
                 if jenisresto1 == 'asia' and hargaresto == '$':
                     hargaresto=False
                     print(tabulate(restoasia1,headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
@@ -520,7 +523,7 @@ while tanyajenis:
         print('-'*50)
         print('Anda tidak memilih jenis restoran')
         print('-'*50)
-        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n       = ')
         if tanyaharga.lower()=='y':
             print('='*50)
             print('Selamat datang pada filter harga restoran')
@@ -550,17 +553,17 @@ while tanyajenis:
         
 #perulangan jenis restoran (jenisresto)
 while jenisresto:
-    jenisrestoulang = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah')
+    jenisrestoulang = input('Masukkan tipe jenis restoran.      Asia, Barat, Timur Tengah      = ')
     if jenisrestoulang.lower() in ['asia', 'barat', 'timur tengah']:
         jenisresto = False
-        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n       = ')
         if tanyaharga.lower()=='y':
             tanyaharga = False
             print('='*50)
             print('Selamat datang pada filter harga restoran')
             print('='*50)
             print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
-            hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+            hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$      = ')
             if jenisrestoulang == 'asia' and hargaresto == '$':
                 hargaresto=False
                 print(tabulate(restoasia1,headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
@@ -619,14 +622,14 @@ while jenisresto:
 
 #perulangan tanya filter harga (tanyaharga)
 while tanyaharga:
-    tanyahargaulang = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+    tanyahargaulang = input('Apakah anda ingin menggunakan filter harga restoran?     y/n      = ')
     if tanyahargaulang.lower()=='y':
         tanyaharga = False
         print('='*50)
         print('Selamat datang pada filter harga restoran')
         print('='*50)
         print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
-        hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+        hargaresto = input('Masukkan range harga restoran.      $/$$/$$$/$$$$      = ')
         if jenisresto1 == 'asia' and hargaresto == '$':
             hargaresto=False
             print(tabulate(restoasia1,headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
@@ -682,7 +685,7 @@ while tanyaharga:
 
 #perulangan filter harga resto (hargaresto)
 while hargaresto:
-    hargarestoulang = input('Masukkan range harga restoran.      $/$$/$$$/$$$$')
+    hargarestoulang = input('Masukkan range harga restoran.      $/$$/$$$/$$$$     = ')
     if  jenisresto1 == 'asia' and hargarestoulang == '$':
         print(tabulate(restoasia1,headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
         hargaresto=False
@@ -725,7 +728,7 @@ while hargaresto:
 
 
 #perulangan nyari resto
-search = input("Ingin menelusuri Restoran? y/n ")
+search = input("Ingin menelusuri Restoran? y/n     = ")
 if search.lower()== 'y':
     print('='*50)
     print('Selamat datang ke menu pencarian')
@@ -738,11 +741,12 @@ else:
 
 #input resto
 while search:
-    find = input("Masukkan nama Restoran: ")
+    find = input("Masukkan nama Restoran:   ")
     counter = 0
     for resto in resto_lower:
         if resto.startswith(find.lower()):
             index = resto_lower.index(resto)
+            print('='*50)
             print(f'Nama Restoran\n{namaresto[index][0]}')
             print('-'*75)
             print(f'Deskripsi\n{namaresto[index][1]}')
@@ -764,7 +768,7 @@ while search:
         print('='*50)
 
     #input lagi ga
-    search = input("Ingin menelusuri restoran lagi? y/n ")
+    search = input("Ingin menelusuri restoran lagi? y/n     = ")
     if search.lower() == 'y':
         search = True
     else:
