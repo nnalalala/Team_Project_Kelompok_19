@@ -32,6 +32,7 @@ def access(option):
 def begin():
     global option
     print("Selamat datang di program kami")
+    print('='*50)
     print("silahkan pilih 'login' jika sudah memiliki akun")
     print("silahkan pilih 'reg' jika belum memiliki akun")
     option = input("silahkan pilih (log/reg)")
