@@ -184,7 +184,7 @@ while search:
     find = input("Masukkan nama Restoran: ")
     counter = 0
     for resto in resto_lower:
-        if resto.startswith(find.lower()):
+        if find.lower() in resto:
             index = resto_lower.index(resto)
             print(f'Nama Restoran\n{namaresto[index][0]}')
             print('-'*75)
