@@ -45,8 +45,7 @@ def begin():
 begin()
 access(option)
 
-#ini dibuat gui sabi
-#credit a
+###################
 import random
 import json
 from tabulate import tabulate
