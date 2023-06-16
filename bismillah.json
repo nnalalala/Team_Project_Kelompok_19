@@ -918,5 +918,221 @@
           "peak": "18.00 - 21.00",
           "operasional": "07.00 - 23.00"}
         }
+  },
+  {
+    "id": 49,
+      "restoran": {
+        "id": {
+          "$numberLong": "49"
+        },
+        "nama": "Emados Shawarma",
+        "findname": "EMADOS SHAWARMA",
+        "tipe": "timur tengah",
+        "harga": "$$$",
+        "desc":"Restoran timur tengah yang cocok untuk porsi satu keluarga dan memiliki tempat dengan nuansa timur tengah.",
+        "rekomen": "1 Ekor Ayam Nasi Daun Jeruk, 1 Ekor Nasi Ayam Kasbah, 1 Ekor Ayam Mandhi Peri-Peri",
+        "alamat": "Ruko Pasar Ayu, Jl. Monginsidi, Banjarsari, Solo",
+        "jam":{
+          "peak": "17.30 - 20.30",
+          "operasional": "09.00 - 21.30"}
+        }
+  },
+  {
+    "id": 50,
+      "restoran": {
+        "id": {
+          "$numberLong": "50"
+        },
+        "nama": "Dapoer Mamana",
+        "findname": "DAPOER MAMANA",
+        "tipe": "timur tengah",
+        "harga": "$$$$",
+        "desc":"Restoran yang menyajikan berbagai macan menu dari timur tengah maupun barat dan memiliki tempat yang nyaman.",
+        "rekomen": "Nasi Mandhi Domba",
+        "alamat": "Jl. Mangesti Raya, Gentan, Baki, Sukoharjo",
+        "jam":{
+          "peak": "17.30 - 20.30",
+          "operasional": "11.00 - 21.30"}
+        }
+  },
+  {
+    "id": 51,
+      "restoran": {
+        "id": {
+          "$numberLong": "51"
+        },
+        "nama": "Iskandaria Resto",
+        "findname": "ISKANDARIO RESTO",
+        "tipe": "timur tengah",
+        "harga": "$$$$",
+        "desc":"Restoran yang menyajikan menu timur tengah yang akan menggugah selera dan rasa yang lezat.",
+        "rekomen": "Lahm Pax, Dujjad Pax, Meat Lover Pax",
+        "alamat": "Jl. Bhayangkara No.81, Sriwedari, Laweyan, Surakarta",
+        "jam":{
+          "peak": "17.00 - 20.30",
+          "operasional": "15.00 - 22.00"}
+        }
+  },
+  {
+    "id": 52,
+      "restoran": {
+        "id": {
+          "$numberLong": "52"
+        },
+        "nama": "A&M Co",
+        "findname": "A&M CO",
+        "tipe": "timur tengah",
+        "harga": "$$$$",
+        "desc":"Restoran yang cocok untuk berbincang - bingang dengan ambiance mewah dengan berbagai jenis masakan.",
+        "rekomen": "Get Lunch, Apple Strudel, Crotabak, Salted Caramel Coffee",
+        "alamat": "Jl. Abdul Rahman Saleh No.1, Setabelan, Kec. Banjarsari, Kota Surakarta, Jawa Tengah 57139",
+        "jam":{
+          "peak": "18.00 - 20.00",
+          "operasional": "10.00 - 00.00"}
+        }
+  },
+  {
+    "id": 53,
+      "restoran": {
+        "id": {
+          "$numberLong": "53"
+        },
+        "nama": "Dapoer Steak, Batik Keris Baru",
+        "findname": "DAPOER STEAK, BATIK KERIS BARU",
+        "tipe": "barat",
+        "harga": "$",
+        "desc":"Tempat yang menyediakan masakan barat yang lezat dengan harga yang bersahabat",
+        "rekomen": "Chicken Double, Chicken Teriyaki, Chicken Crispy",
+        "alamat": "Jl. Batik Keris Baru, Grogol, Sukoharjo",
+        "jam":{
+          "peak": "17.30 - 20.00",
+          "operasional": "10.00 - 21.30"}
+        }
+  },
+  {
+    "id": 54,
+      "restoran": {
+        "id": {
+          "$numberLong": "54"
+        },
+        "nama": "Steak Mr. Joe, Tipes",
+        "findname": "STEAK MR. JOE, TIPES",
+        "tipe": "barat",
+        "harga": "$",
+        "desc":"Tempat yang menyediakan makanan dari barat yang memiliki tempat yang nyaman untuk berkumpul",
+        "rekomen": "Chicken Steak Crispy, Beef Crispy, Twin Beef",
+        "alamat": "Jl. Wijayakusuma No.48, Serengan, Surakarta",
+        "jam":{
+          "peak": "17.00 - 20.30",
+          "operasional": "10.00 - 21.00"}
+        }
+  },
+  {
+    "id": 55,
+      "restoran": {
+        "id": {
+          "$numberLong": "55"
+        },
+        "nama": "Grini Coffe House",
+        "findname": "GRINI COFFE HOUSE",
+        "tipe": "barat",
+        "harga": "$",
+        "desc":"Tempat yang menyediakan makanan yang lezat dan cocok untuk berkumpul",
+        "rekomen": "Beef Burger And Fries, Onion Ring",
+        "alamat": "Karang Wetan, Papahan, Tasikmadu, Karanganyar",
+        "jam":{
+          "peak": "17.00 - 20.00",
+          "operasional": "16.00 - 22.00"}
+        }
+  },
+  {
+    "id": 56,
+      "restoran": {
+        "id": {
+          "$numberLong": "56"
+        },
+        "nama": "Metalica Steak",
+        "findname": "METALICA STEAK",
+        "tipe": "barat",
+        "harga": "$",
+        "desc":"Tempat yang memiliki makanan yang lezat dan memiliki protein yang tinggi ",
+        "rekomen": "Chicken Steak, Double Chicken Steak",
+        "alamat": "Sawahan, Wirun, Mojolaban, Sukoharjo",
+        "jam":{
+          "peak": "18.30 - 21.30",
+          "operasional": "17.45 - 23.00"}
+        }
+  },
+  {
+    "id": 57,
+      "restoran": {
+        "id": {
+          "$numberLong": "57"
+        },
+        "nama": "Lariis Steak",
+        "findname": "LARIIS STEAK",
+        "tipe": "barat",
+        "harga": "$",
+        "desc":"Tempat yang memiliki makanan yang enak dan nyaman untuk berkumpul bersama keluarga  ",
+        "rekomen": "Double Sirloin Steak Crispy, Steak Kulit Crispy",
+        "alamat": "Jl. Solo-Purwodadi No.10, Gondangrejo, Solo",
+        "jam":{
+          "peak": "17.00 - 20.00",
+          "operasional": "09.30 - 21.00"}
+        }
+  },
+  {
+    "id": 58,
+      "restoran": {
+        "id": {
+          "$numberLong": "58"
+        },
+        "nama": "Almamater Coffe and Eatery",
+        "findname": "ALMAMATER COFFE AND EATERY",
+        "tipe": "barat",
+        "harga": "$$$",
+        "desc":"Cafe and eatery yang menyajikan makanan yang lezat dan cocok untuk berkumpul untuk berbagai macam kegiatan",
+        "rekomen": "Buttermilk Chicken, Gyudon, KSA",
+        "alamat": "Jl. Ir. Sutami, Jebres, Surakarta",
+        "jam":{
+          "peak": "21.00 - 22.00",
+          "operasional": "08.00 - 24.00"}
+        }
+  },
+  {
+    "id": 59,
+      "restoran": {
+        "id": {
+          "$numberLong": "59"
+        },
+        "nama": "Dapoer Mamana",
+        "findname": "DAPOER MAMANA",
+        "tipe": "barat",
+        "harga": "$$$$",
+        "desc":"Restoran yang menyajikan berbagai macan menu dari timur tengah maupun barat dan memiliki tempat yang nyaman",
+        "rekomen": "Sirloin Steak Mr Odam And Mashed Potatos",
+        "alamat": "Jl. Mangesti Raya, Gentan, Baki, Sukoharjo",
+        "jam":{
+          "peak": "17.30 - 19.30",
+          "operasional": "11.00 - 20.30"}
+        }
+  },
+  {
+    "id": 60,
+      "restoran": {
+        "id": {
+          "$numberLong": "60"
+        },
+        "nama": "Omah Mantan BBQ&Grill",
+        "findname": "OMAH MANTAN BBQ&GRILL",
+        "tipe": "barat",
+        "harga": "$$$$",
+        "desc":"Restoran yang menyajikan makanan yang enak dan bergizi dan cocok dimakan bersama keluarga maupun teman teman",
+        "rekomen": "Sirloin Steak, Tenderloin Steak, Tomahawk Steak",
+        "alamat": "Jl. MT Haryono No 29, Banjarsari, Solo",
+        "jam":{
+          "peak": "17.00 - 21.00",
+          "operasional": "16.00 - 22.30"}
+        }
   }
 ]

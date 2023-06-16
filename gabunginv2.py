@@ -10,8 +10,10 @@ def login(name,pasword):
     file.close()
     if(Berhasil):
         print("login sukses")
+        print('-'*50)
     else:
         print("Anda belum memiliki akun, silahkan registrasi akun")
+        print('-'*50)
 def registrasi(name,pasword):
     file = open("base.txt", "a")
     file.write("\n"+name+","+pasword)
@@ -28,16 +30,18 @@ def access(option):
         pasword = input("Masukkan pasword : ")
         registrasi(name,pasword)
         print("Registrasi anda berhasil")
+        print('-'*50)
 
 def begin():
     global option
-    print("Selamat datang di program kami")
+    print("         Selamat datang di program kami")
+    print('='*50)
     print("silahkan pilih 'login' jika sudah memiliki akun")
     print("silahkan pilih 'reg' jika belum memiliki akun")
-    option = input("silahkan pilih (log/reg)")
+    print('-'*50)
+    option = input("silahkan pilih (login/reg)  :")
     if(option != "login" and option != "reg"):
         begin()
-
 begin()
 access(option)
 
@@ -82,7 +86,7 @@ print('3. Pencarian Restoran')
 def tanya_filter1():
     while True:
         try:
-            filter1 = input("Masukkan jenis restoran")
+            filter1 = input("Masukkan jenis restoran    :")
             assert filter1.lower() in ["asia", "barat", "timur tengah", "any"], "Jenis restoran tidak tersedia"
             break
         except AssertionError as er:
@@ -95,8 +99,8 @@ def tanya_filter1():
 def tanya_filter2():
     while True:
         try:
-            filter2 = input("Masukkan range harga restoran")
-            assert filter2.lower() in ['$', '$$', '$$$', '$$$$', "any"], "Range harga tidak tersedia"
+            filter2 = input("Masukkan range harga restoran  :")
+            assert filter2.lower() in ['$', '$$', '$$$', '$$$$',], "Range harga tidak tersedia"
             break
         except AssertionError as er:
             print(er)
@@ -108,27 +112,26 @@ def tanya_filter2():
 # filter1 = tanya_filter1()
 # filter2 = tanya_filter2()    
 
-
 #main code
-filterutama=input('Apakah anda ingin menggunakan Filter Restoran?    y/n')
+filterutama=input('Apakah anda ingin menggunakan Filter Restoran?    y/n    :')
 if filterutama.lower()== 'y':
-    tanyajenis = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n')
+    tanyajenis = input('Apakah anda ingin menggunakan filter jenis restoran?    y/n    :')
     if tanyajenis.lower()=='y':
         print('='*50)
         print('Selamat datang pada filter jenis restoran')
         print('='*50)
-        print('Asia/Barat/Timur Tengah/Any')
+        print('Asia/Barat/Timur Tengah/Any  :')
         filter1 = tanya_filter1()
-        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n    :')
         if tanyaharga.lower()=='y':
             print('='*50)
             print('Selamat datang pada filter harga restoran')
             print('='*50)
-            print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)/Any')
+            print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
             filter2 = tanya_filter2()
             restofilter = []
             for restoran in data:
-                if restoran['restoran']['harga'] in filter2 and restoran['restoran']['tipe'] in filter1:
+                if restoran['restoran']['harga'] == filter2 and restoran['restoran']['tipe'] in filter1:
                     restofilter.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(restofilter)
             print(tabulate(restofilter[:5], headers=["Nama", "tipe", "harga"]))
@@ -144,7 +147,7 @@ if filterutama.lower()== 'y':
         print('='*50)
         print('Anda tidak menggunakan filter jenis restoran')
         print('='*50)
-        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n')
+        tanyaharga = input('Apakah anda ingin menggunakan filter harga restoran?     y/n    :')
         if tanyaharga.lower()=='y':
             print('='*50)
             print('Selamat datang pada filter harga restoran')
@@ -153,7 +156,7 @@ if filterutama.lower()== 'y':
             filter2 = tanya_filter2()
             resto1filter2 = []
             for restoran in data:
-                if restoran['restoran']['harga'] in filter2:
+                if restoran['restoran']['harga'] == filter2:
                     resto1filter2.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(resto1filter2)
             print(tabulate(resto1filter2[:5], headers=["Nama", "tipe", "harga"]))
@@ -168,7 +171,7 @@ else:
             
 
 #perulangan nyari resto
-search = input("Ingin menelusuri Restoran? y/n ")
+search = input("Ingin menelusuri Restoran? y/n  : ")
 if search.lower()== 'y':
     print('='*50)
     print('Selamat datang ke menu pencarian')
@@ -181,15 +184,16 @@ else:
 
 #input resto
 while search:
-    find = input("Masukkan nama Restoran: ")
+    find = input("Masukkan nama Restoran    : ")
     counter = 0
     for resto in resto_lower:
         if find.lower() in resto:
             index = resto_lower.index(resto)
+            print('-'*75)
             print(f'Nama Restoran\n{namaresto[index][0]}')
             print('-'*75)
             print(f'Deskripsi\n{namaresto[index][1]}')
-            print('-'*300)
+            print('-'*190)
             print(f'Recommended Menu\n{namaresto[index][2]}')
             print('-'*75)
             print(f'Alamat Restoran\n{namaresto[index][3]}')
@@ -207,7 +211,7 @@ while search:
         print('='*50)
     
     #input lagi ga
-    search = input("Ingin menelusuri restoran lagi? y/n ")
+    search = input("Ingin menelusuri restoran lagi? y/n     :")
     if search.lower() == 'y':
         search = True
     else:
