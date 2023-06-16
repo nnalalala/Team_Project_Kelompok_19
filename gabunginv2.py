@@ -79,7 +79,7 @@ print('Program ini menyediakan :')
 print('1. Filter Jenis Restoran')
 print('Asia/Barat/Timur Tengah/Any')
 print('2. Filter Range Harga Restoran')
-print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)/Any')
+print('$(1-25K)/$$(15k-50k)/$$$(35k-100k)/$$$$(70k and up)')
 print('3. Pencarian Restoran')
 
 #list def
