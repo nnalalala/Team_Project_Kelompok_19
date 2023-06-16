@@ -14,6 +14,8 @@ def login(name,pasword):
     else:
         print("Anda belum memiliki akun, silahkan registrasi akun")
         print('-'*50)
+        begin()
+        access(option)
 def registrasi(name,pasword):
     file = open("base.txt", "a")
     file.write("\n"+name+","+pasword)
@@ -134,6 +136,7 @@ if filterutama.lower()== 'y':
                     restofilter.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(restofilter)
             print(tabulate(restofilter[:5], headers=["Nama", "tipe", "harga"]))
+            print('-'*50)
         else:
             print('Anda tidak memilih range harga')
             resto1filter1 = []
@@ -142,6 +145,7 @@ if filterutama.lower()== 'y':
                     resto1filter1.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(resto1filter1)
             print(tabulate(resto1filter1[:5], headers=["Nama", "tipe", "harga"]))
+            print('-'*50)
     else:
         print('='*50)
         print('Anda tidak menggunakan filter jenis restoran')
@@ -151,7 +155,7 @@ if filterutama.lower()== 'y':
             print('='*50)
             print('Selamat datang pada filter harga restoran')
             print('='*50)
-            print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)/Any')
+            print('$(1-25K)/$$(25k-50k)/$$$(35k-100k)/$$$$(70k and up)')
             filter2 = tanya_filter2()
             resto1filter2 = []
             for restoran in data:
@@ -159,17 +163,20 @@ if filterutama.lower()== 'y':
                     resto1filter2.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(resto1filter2)
             print(tabulate(resto1filter2[:5], headers=["Nama", "tipe", "harga"]))
+            print('-'*50)
         else:
             print('='*50)
             print('Anda tidak memilih range harga restoran')
             print('='*50)
             print(tabulate(restosemua[:5],headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
+            print('-'*50)
 else: 
     print('Anda tidak menggunakan filter')
     print(tabulate(restosemua[:5],headers=['Nama Restoran', 'Jenis Restoran', ' Range Harga'], tablefmt="orgtbl"))
+    print('-'*50)
             
 
-#perulangan nyari resto
+#perulangan penelusuran resto
 search = input("Ingin menelusuri Restoran? y/n  : ")
 if search.lower()== 'y':
     print('='*50)
@@ -181,7 +188,7 @@ else:
     print('Terima kasih telah menggunakan program kami')
     search = False
 
-#input resto
+#input nama resto
 while search:
     find = input("Masukkan nama Restoran    : ")
     counter = 0
@@ -209,7 +216,7 @@ while search:
         print("Resto tidak tersedia")
         print('='*50)
     
-    #input lagi ga
+    #telusuri lagi?
     search = input("Ingin menelusuri restoran lagi? y/n     :")
     if search.lower() == 'y':
         search = True
