@@ -41,9 +41,7 @@ def access(option):
         registrasi(name,pasword)
         print("Registrasi anda berhasil")
         print('-'*50)
-        begin()
-        # access(option)
-        # exit()
+        exit()
 
 def begin():
     global option
