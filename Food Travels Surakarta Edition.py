@@ -1,6 +1,6 @@
 def login(name,pasword):
     Berhasil = False
-    file = open("base.txt", "r")
+    file = open("userdatabase.txt", "r")
     for i in file:
         x,y = i.split(",")
         y = y.strip()
@@ -17,7 +17,7 @@ def login(name,pasword):
         begin()
         access(option)
 def registrasi(name,pasword):
-    file = open("base.txt", "a")
+    file = open("userdatabase.txt", "a")
     file.write("\n"+name+","+pasword)
 def access(option):
     global name 
@@ -60,7 +60,7 @@ access(option)
 import random
 import json
 from tabulate import tabulate
-with open('bismillah.json', encoding='utf-8')as f:
+with open('restorandatabase.json', encoding='utf-8')as f:
     data = json.load(f)
 
 #beberapa list resto
