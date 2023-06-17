@@ -19,20 +19,29 @@ def login(name,pasword):
 def registrasi(name,pasword):
     file = open("base.txt", "a")
     file.write("\n"+name+","+pasword)
-
 def access(option):
     global name 
     if(option == "login"):
+        print('='*50)
+        print('Selamat datang ke menu Login')
+        print('-'*50)
+        print ("Masukkan ID dan Paword anda : ")
+        print('='*50)
         name = input ("Masukkan ID : ")
-        pasword = input ("Masukkan pasword : ")
+        pasword = input ("Masukkan password : ")
         login(name,pasword)
     else : 
+        print('='*50)
+        print('Selamat datang ke menu Registrasi')
+        print('-'*50)
         print ("Masukkan ID dan Paword anda : ")
+        print('='*50)
         name = input("Masukkan ID : ")
         pasword = input("Masukkan pasword : ")
         registrasi(name,pasword)
         print("Registrasi anda berhasil")
         print('-'*50)
+        exit()
 
 def begin():
     global option
@@ -135,7 +144,7 @@ if filterutama.lower()== 'y':
                 if restoran['restoran']['harga'] == filter2 and restoran['restoran']['tipe'] in filter1:
                     restofilter.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(restofilter)
-            print(tabulate(restofilter[:5], headers=["Nama", "tipe", "harga"]))
+            print(tabulate(restofilter[:5], headers=["Nama Restoran", "Jenis Restoran", "Range Harga"]))
             print('-'*50)
         else:
             print('Anda tidak memilih range harga')
@@ -144,7 +153,7 @@ if filterutama.lower()== 'y':
                 if restoran['restoran']['tipe'] in filter1:
                     resto1filter1.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(resto1filter1)
-            print(tabulate(resto1filter1[:5], headers=["Nama", "tipe", "harga"]))
+            print(tabulate(resto1filter1[:5], headers=["Nama Restoran", "Jenis Restoran", "Range Harga"]))
             print('-'*50)
     else:
         print('='*50)
@@ -162,7 +171,7 @@ if filterutama.lower()== 'y':
                 if restoran['restoran']['harga'] == filter2:
                     resto1filter2.append([ restoran['restoran']['nama'],restoran['restoran']['tipe'],restoran['restoran']['harga'] ])
                     random.shuffle(resto1filter2)
-            print(tabulate(resto1filter2[:5], headers=["Nama", "tipe", "harga"]))
+            print(tabulate(resto1filter2[:5], headers=["Nama Restoran", "Jenis Restoran", "Range Harga"]))
             print('-'*50)
         else:
             print('='*50)
@@ -196,19 +205,19 @@ while search:
         if find.lower() in resto:
             index = resto_lower.index(resto)
             print('-'*75)
-            print(f'Nama Restoran\n{namaresto[index][0]}')
+            print(f'Nama Restoran:\n{namaresto[index][0]}')
             print('-'*75)
-            print(f'Deskripsi\n{namaresto[index][1]}')
+            print(f'Deskripsi:\n{namaresto[index][1]}')
             print('-'*190)
-            print(f'Recommended Menu\n{namaresto[index][2]}')
+            print(f'Recommended Menu:\n{namaresto[index][2]}')
             print('-'*75)
-            print(f'Alamat Restoran\n{namaresto[index][3]}')
+            print(f'Alamat Restoran:\n{namaresto[index][3]}')
             print('-'*150)
-            print(f'Peak hour\n{namaresto[index][4]}')
+            print(f'Peak hour:\n{namaresto[index][4]}')
             print('-'*75)
-            print(f'Jam Operasional \n{namaresto[index][5]}')
+            print(f'Jam Operasional:\n{namaresto[index][5]}')
             print('-'*75)
-            print(f'Range Harga Restoran \n{namaresto[index][6]}')
+            print(f'Range Harga Restoran: \n{namaresto[index][6]}')
             print('='*75)
             counter += 1
     if counter == 0:

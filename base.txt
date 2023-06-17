@@ -1,3 +1,5 @@
 kucing, imut
 rafif,rafif123
 ilham,ilham123
+nala,NALA
+pip,co
